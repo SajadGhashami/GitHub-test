@@ -1,7 +1,12 @@
 ---
-title: "Untitled"
-output: html_document
-date: "2023-06-09"
+title: "Rmarkdown"
+output:
+  html_document:
+    toc: true
+    code_folding: hide
+    theme: united
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: "Sajad Ghashami"
 ---
 
 ```{r setup, include=FALSE}
